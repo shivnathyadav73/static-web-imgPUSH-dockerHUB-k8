@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shivsoftapp/static-web"
-        TAG = "555"
+        IMAGE_NAME = "shivsoftapp/softapp-lab"
+        TAG = "03"
 
         // Jenkins credentials IDs
         DOCKER_CREDS = "dockerhub-creds"
