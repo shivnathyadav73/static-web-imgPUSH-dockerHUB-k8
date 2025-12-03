@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: static-webs
-          image: shivsoftapp/static-web:555
+          image: shivsoftapp/softapp-lab:03
           ports:
             - containerPort: 80
 
