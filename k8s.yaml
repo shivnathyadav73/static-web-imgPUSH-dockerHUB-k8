@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: static-web-deployment-1
+  name: static-web-deployment
 spec:
   replicas: 3
   selector:
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: static-web-service-1
+  name: static-web-service
 spec:
   type: NodePort
   selector:
